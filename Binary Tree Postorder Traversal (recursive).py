@@ -1,4 +1,4 @@
-#Solution function, takes in a Binary Tree Node and returns a List of Items in the Tree traversed in order
+#Solution function, takes in a Binary Tree Node and returns a List of Items in the Tree traversed post-order
 def postorderTraversal(self, root: TreeNode) -> List[int]:
 	#array to store the items
 	array=[]
