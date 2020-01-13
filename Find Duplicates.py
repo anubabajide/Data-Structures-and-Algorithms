@@ -1,7 +1,9 @@
 def find_duplicates(s):
-  s=s.lower(); l=s.split(" "); dupes =[]
-  for i in range(len(l)):
-    for j in range((i+1), len(l)):
-      if l[i] == l[j]:
-        dupes.append(l[i])
-  return dupes
+	#make all alphabets lower case and remove all spaces
+	s=s.lower().split(" ") 
+	dupes =[]
+	for i in range(len(s)):
+		for j in range((i+1), len(s)):
+			if l[i] == l[j]:
+			dupes.append(l[i])
+	return dupes
