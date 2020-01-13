@@ -1,11 +1,10 @@
-def inorderTraversal(self, root: TreeNode) -> List[int]:
+def inorderTraversal(root: TreeNode) -> List[int]:
 	#Create stack to store the un-traversed nodes
 	stack = []  
 	#to store the results
 	res = [] 
 
-	#infinite loop
-	while True: 
+	while stack or root: 
 
 		#find the left-most value in the tree
 		if root is not None: 
