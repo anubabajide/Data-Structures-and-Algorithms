@@ -7,20 +7,20 @@ Different Coding Questions on Data Structure and Algorithm concepts
     
 2. Binary Tree In-order Traversal :
     Problem: Given a Binary Tree Node,  returns a List of Items in the Tree using in-order Traversal
-    Solution 1: Using a iterative function.
-    Solution 2: Using an recursive function.
+    Solution 1: Using an iterative function.
+    Solution 2: Using a recursive function.
         Time Complexity: O(N+M) N is number of Nodes, M is number of Edges
   
 3. Binary Tree Post-order Traversal :
     Problem: Given a Binary Tree Node,  returns a List of Items in the Tree using post-order Traversal
-    Solution 1: Using a iterative function.
-    Solution 2: Using an recursive function.
+    Solution 1: Using an iterative function.
+    Solution 2: Using a recursive function.
         Time Complexity: O(N+M) N is number of Nodes, M is number of Edges
     
 4. Binary Tree Pre-order Traversal :
     Problem: Given a Binary Tree Node,  returns a List of Items in the Tree using pre-order Traversal
-    Solution 1: Using a iterative function.
-    Solution 2: Using an recursive function.
+    Solution 1: Using an iterative function.
+    Solution 2: Using a recursive function.
         Time Complexity: O(N+M) N is number of Nodes, M is number of Edges
       
 5. Circular Queue Design :
