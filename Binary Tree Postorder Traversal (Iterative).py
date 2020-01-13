@@ -3,7 +3,7 @@ def peek(stack):
     return stack[-1] 
   return None
 
-def postorderTraversalI(root: TreeNode) -> List[int]:
+def postorderTraversal(root: TreeNode) -> List[int]:
   stack=[]
   res = []
   while True:
