@@ -1,4 +1,4 @@
-def preorderTraversal(self, root: TreeNode) -> 'List[int]':
+def preorderTraversal(root: TreeNode) -> 'List[int]':
         result = []
         stack = []
         
@@ -14,3 +14,10 @@ def preorderTraversal(self, root: TreeNode) -> 'List[int]':
                 else:
                         root = stack.pop().right
         return result
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
