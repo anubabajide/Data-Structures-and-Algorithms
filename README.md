@@ -3,7 +3,7 @@ Different Coding Questions on Data Structure and Algorithm concepts
 1. Array Interesection : 
     Problem: Given two arrays of variable lengths, return the items present in both in arrays.
     Solution: By changing the lists into sets, the built-in intersection operation can be used on the data.
-        Time Complexity: O(1)
+        Time Complexity: O(1) 
     
 2. Binary Tree In-order Traversal :
     Problem: Given a Binary Tree Node,  returns a List of Items in the Tree using in-order Traversal
