@@ -61,3 +61,16 @@ Different Coding Questions on Data Structure and Algorithm concepts
     1. Problem: Given a string, check if it is the same when read forwards and backwards while ignoring whitespaces and case sensitivity
     2. Solution: Using Pointers
     3. Time Complexity: O(n)
+
+12. Insert Delete GetRandom O(1)-with Duplicates
+    1. Problem: Create a data structure with the following functions:
+	-Insert: Add an element to the DS in constaant time, Insert(a)
+	-Delete: Delete an element from the DS in constant time, Delete(a)
+	-GetRandom: Get Random element from the DS in constant time, GetRandom()
+    2. Solution: Using a dictionary, a List, and a pointer
+    3. Time Complexity: O(1)
+
+13. Word Search II
+    1. Problem: Given a list of words and a 2D array of characters, return all words in the list that can be formed from the 2D array by going in the 4-cardinal directions excluding the previous character
+    2. Solution: Store all Words in a Trie and search the Trie with the characters using a DFS technique
+    3. Time Complexity: O(2^n)
