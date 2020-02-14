@@ -82,3 +82,48 @@ Different Coding Questions on Data Structure and Algorithm concepts
 	-Get Average(FromLocation, ToLocation): Returns the average duration of a Trip
     2. Solution: Use two dictionaries to store customer info and Trip info
     3. Time Complexity: O(1) for all functions
+
+15. Anagram Checker
+    1. Problem: Given two strings, check if they are anagrams
+    2. Solution: Using hash tables (Dictionaries)
+    3. Time Complexity: O(N) ; N=length of shorter word 
+
+16. Binary Tree: Level Order Traversal
+    1. Problem: Given a Binary Tree Node,  returns a List of Items in the Tree using in-order Traversal
+    2. Solution : Using a Breadth First Search in an iterative function.
+    3. Time Complexity: O(N) N is number of Nodes, M is number of Edges
+
+17. Binary Tree Mirror
+    1. Problem: Given a Binary Tree, get a mirror image
+    2. Solution: Using BFS to traverse all nodes
+    3. Time Complexity: O(N) N is number of Nodes
+
+18. Candy Crush 1D
+    1. Problem: Given a string of letters, like the candy crush game, delete any strings that are connected in threes and above
+    2. Solution: Using a stack and a variable to store the last ejected 
+    3. Time Complexity: O(N) N is length of the string
+
+19. Decode String
+    1. Problem: Given an encoded string (3[a]) return the decoded string (aaa).
+    2. Solution: Using a stack and manually built alphabet and number checkers
+    3. Time Complexity: O(N) N is the length of teh string
+
+20. Fibonacci Sequence
+    1. Problem: Write a piece of code to create a Fibonacci sequence 
+    2. Solution 1: Using Recursion
+    3. Solution 2: Using Iteration
+    4. Time Complexity: O(N) N is the length of the sequence
+
+21. Insert, Delete, GetRandom O(1)
+    1. Problem: Create a data structure with the following functions:
+    -Insert: Add an element to the DS in constaant time, Insert(a)
+    -Delete: Delete an element from the DS in constant time, Delete(a)
+    -GetRandom: Get Random element from the DS in constant time, GetRandom()
+    Note: Only unique elements in the data structure
+    2. Solution: Using a set
+    3. Time Complexity: O(1)
+
+22. Two City Scheduling:
+    1. Problem: Given a list of tuples of two integers (cost of city A, cost of city B), return the minimum sum such that not more than half of each city is present in the sum.
+    2. Solution: Sorting according to differences 
+    3. Time Complexity: O(nlogn)
