@@ -1,6 +1,11 @@
 def intersection(nums1, nums2):
+  #Make one array a set
   nums1 = set(nums1)
-  nums2 = set(nums2)
+  result=[]
+
+  #check for presence of second array in set 
+  for i in nums2:
+  	if i in nums1:
+  		result.append(i)
   
-  print(nums1.intersection(nums2))
-  return list(nums1.intersection(nums2))
+  return result

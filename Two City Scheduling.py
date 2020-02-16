@@ -1,4 +1,4 @@
-def twoCitySchedCost(self, costs: List[List[int]]) -> int:
+def twoCitySchedCost(costs):
     t=len(costs)//2
     s1=0
     # sort list according to difference between two costs

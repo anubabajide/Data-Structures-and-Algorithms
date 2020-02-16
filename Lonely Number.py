@@ -1,18 +1,14 @@
 def lonely_number(numbers):
 	#change list to set
-	yes=set(numbers)
+	seen=set()
+	seen_twice=set()
 	# loop through all items in list
-	for _ in range(len(numbers)):
-		#remove first item 
-		x=numbers.pop(0)
-		#create a set without the removed item 
-		no=set(numbers)
-		#add removed item back to list
-		numbers.append(x)
-		
-		#If there is a difference between the two sets, there is a lonely number
-		if bool(yes.difference(no)) is True:
-			return[list(yes.difference(no))[0]]
-		
-	#return null if there is no difference
-	return []
+	for i in numbers: 
+		#if item is seen before
+		if i in seen:
+			no.add(i)
+		#if item is seen again
+		else: 
+			yes.add(i)
+	#items seen - items seen twice
+	return list(yes-no)
