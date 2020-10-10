@@ -7,13 +7,15 @@ if __name__ == "__main__":
     def gen():
         f = open('README.md', 'r')
         a = ''
-        while True:
-            temp = next(f)
+        temp = next(f)
+        while temp:
             a += temp 
             if temp == '\n':
                 yield a
                 a = ''
-        
+            temp = next(f)
+        f.close()
+
     dfs = gen()
     print(next(dfs))
 
@@ -21,4 +23,3 @@ if __name__ == "__main__":
         file = open('{}/README.md'.format(folder), 'r+')
         file.write(next(dfs))
         file.close()
-    f.close()
