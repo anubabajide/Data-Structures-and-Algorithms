@@ -16,8 +16,7 @@ Output the maximum value of ∑︀<sub>𝑛<sub>𝑖=1</sub></sub>𝑎<sub>𝑖<
 
 **Constraints:** 
 <br>1 ≤ 𝑛 ≤ 10<sup>3</sup> 
-<br>−105 ≤ 𝑎𝑖 
-<br>𝑏𝑖 ≤ 105 
+<br>−10<sup>5</sup> ≤ 𝑎𝑖, 𝑏𝑖 ≤ 10<sup>5</sup> 
 <br>for all 1 ≤ 𝑖 ≤ 𝑛.
 
 
