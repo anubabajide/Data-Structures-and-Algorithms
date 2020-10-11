@@ -1,21 +1,21 @@
 # Car Fueling
-**Description**
+## Description
 You are going to travel to another city that is located 𝑑 miles away from your home city. Your car can travel at most 𝑚 miles on a full tank and you start with a full tank. Along your way, there are gas stations at distances stop 1, stop 2, . . . ,stop 𝑛 from your home city. What is the minimum number of refills needed?
 
 ## Details
-**Task.** 
+**Task** <br>
 The goal of this code problem is to implement an algorithm for the fractional knapsack problem
 
-**Input format:** 
+**Input format**<br> 
 The first line contains an integer 𝑑. The second line contains an integer 𝑚. The third line specifies an integer 𝑛. Finally, the last line contains integers stop 1
 ,stop 2 , . . . ,stop 𝑛.
 
-**Output format:** 
+**Output format** <br>
 Assuming that the distance between the cities is 𝑑 miles, a car can travel at most 𝑚 miles on a full tank, and there are gas stations at distances stop 1
 ,stop 2, . . . ,stop 𝑛 along the way, output the minimum number of refills needed. Assume that the car starts with a full tank. If it is not possible to reach the destination, output −1.
 
-**Constraints:** 
-<br>1 ≤ 𝑑 ≤ 10<sup>5</sup> 
+**Constraints** <br>
+1 ≤ 𝑑 ≤ 10<sup>5</sup> 
 <br>1 ≤ 𝑚 ≤ 400 
 <br>1 ≤ 𝑛 ≤ 300 
 <br>0 < stop 1 < stop 2 < · · · < stop 𝑛 < 𝑑.

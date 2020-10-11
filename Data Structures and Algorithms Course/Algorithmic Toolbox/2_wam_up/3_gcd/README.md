@@ -16,16 +16,16 @@ basic primitive of commonly used cryptographic algorithms like RSA.
 
 
 ## Details
-**Task.** 
+**Task** <br>
 Given two integers 𝑎 and 𝑏, find their greatest common divisor
 
-**Input format:** 
+**Input format** <br>
 The two integers 𝑎, 𝑏 are given in the same line separated by space.
 
-**Output format:** 
+**Output format** <br>
 Output GCD(𝑎, 𝑏).
 
-**Constraints:** 
+**Constraints** <br>
 1 ≤ 𝑎, 𝑏 ≤ 2 · 10<sup>9</sup>
 
 ## Samples.

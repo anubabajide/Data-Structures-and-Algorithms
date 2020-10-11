@@ -5,16 +5,16 @@ Recall the definition of Fibonacci sequence: 𝐹<sub>0</sub> = 0, 𝐹<sub>1</s
 
 
 ## Details
-**Task.** 
+**Task** <br>
 Given an integer 𝑛, find the 𝑛th Fibonacci number 𝐹<sub>𝑛</sub>.
 
-**Input format:** 
+**Input format** <br>
 The input consists of a single integer 𝑛.
 
-**Output format:** 
+**Output format** <br>
 Output 𝐹<sub>𝑛</sub>.
 
-**Constraints:** 
+**Constraints** <br>
 0 ≤ 𝑛 ≤ 45.
 
 ## Samples.

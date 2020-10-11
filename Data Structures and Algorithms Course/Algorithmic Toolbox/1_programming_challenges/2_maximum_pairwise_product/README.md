@@ -11,17 +11,17 @@ The maximum value that can be obtained by multiplyingtwo different elements from
 
 
 ## Details
-**Input format:** 
+**Input format** <br>
 The first line contains an integer n. The next line contains n non-negative integers a1, . . . , an (separated by spaces).
 
-**Output format:** 
+**Output format** <br>
 The maximum pairwise product
 
-**Constraints:** 
+**Constraints** <br>
 2 ≤ n ≤ 2 · 10<sup>5</sup> ; 0 ≤ <i>a<sub>1</sub> , . . .,a<sub>n</sub></i> ≤ 2 · 10<sup>5</sup>
 
 
-## Sample.
+## Sample
 Sample 1.
 
     Input:

@@ -8,16 +8,16 @@ Recall that Fibonacci numbers grow exponentially fast. For example,
 
 
 ## Details
-**Task.** 
+**Task** <br>
 Given an integer 𝑛, find the last digit of the 𝑛th Fibonacci number 𝐹𝑛 (that is, 𝐹𝑛 mod 10).
 
-**Input format:** 
+**Input format**<br> 
 The input consists of a single integer 𝑛.
 
-**Output format:** 
+**Output format** <br>
 Output the last digit of 𝐹𝑛.
 
-**Constraints:** 
+**Constraints** <br>
 0 ≤ 𝑛 ≤ 10<sup>7</sup>
 
 ## Samples.

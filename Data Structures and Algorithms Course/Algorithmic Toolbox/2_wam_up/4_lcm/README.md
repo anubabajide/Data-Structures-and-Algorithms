@@ -5,16 +5,16 @@ The least common multiple of two positive integers 𝑎 and 𝑏 is the least po
 integer 𝑚 that is divisible by both 𝑎 and 𝑏.
 
 ## Details
-**Task.** 
+**Task** <br>
 Given two integers 𝑎 and 𝑏, find their least comomn multiple
 
-**Input format:** 
+**Input format** <br>
 The two integers 𝑎, 𝑏 are given in the same line separated by space.
 
-**Output format:** 
+**Output format** <br>
 Output the least common multiple of 𝑎 and 𝑏
 
-**Constraints:** 
+**Constraints** <br>
 1 ≤ 𝑎, 𝑏 ≤ 10<sup>7</sup>
 
 ## Samples.

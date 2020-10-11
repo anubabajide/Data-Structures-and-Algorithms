@@ -22,16 +22,16 @@ This is true in general: for any integer 𝑚 ≥ 2, the sequence 𝐹𝑛 mod �
 starts with 01 and is known as Pisano period.
 
 ## Details
-**Task.** 
+**Task** <br>
 Given two integers 𝑛 and 𝑚, output 𝐹𝑛 mod 𝑚 (that is, the remainder of 𝐹𝑛 when divided by 𝑚).
 
-**Input format:** 
+**Input format** <br>
 The input consists of two integers 𝑛 and 𝑚 given on the same line (separated by a space).
 
-**Output format:** 
+**Output format** <br>
 Output 𝐹𝑛 mod 𝑚.
 
-**Constraints:** 
+**Constraints** <br>
 1 ≤ 𝑛 ≤ 10<sup>14</sup>, 2 ≤ 𝑚 ≤ 10<sup>3</sup>
 
 

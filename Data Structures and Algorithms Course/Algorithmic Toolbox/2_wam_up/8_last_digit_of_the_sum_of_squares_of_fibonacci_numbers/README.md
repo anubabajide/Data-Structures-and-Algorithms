@@ -2,17 +2,17 @@
 
 
 ## Details
-**Task.** 
+**Task** <br>
 Compute the last digit of 𝐹<sub>0</sub><sup>2</sup> + 𝐹<sub>1</sub><sup>2</sup> + · · · + 𝐹<sub>n</sub><sup>2</sup>
 
 
-**Input format:** 
+**Input format** <br>
 Integer 𝑛.
 
-**Output format:** 
+**Output format** <br>
 Last digit of 𝐹<sub>0</sub><sup>2</sup> + 𝐹<sub>1</sub><sup>2</sup> + · · · + 𝐹<sub>n</sub><sup>2</sup>
 
-**Constraints:** 
+**Constraints** <br>
 0 ≤ 𝑛 ≤ 10<sup>14</sup>
 
 
