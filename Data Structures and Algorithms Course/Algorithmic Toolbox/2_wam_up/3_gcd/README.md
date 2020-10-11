@@ -28,7 +28,7 @@ Output GCD(𝑎, 𝑏).
 **Constraints** <br>
 1 ≤ 𝑎, 𝑏 ≤ 2 · 10<sup>9</sup>
 
-## Samples.
+## Samples
 Sample 1.
 
     Input:
