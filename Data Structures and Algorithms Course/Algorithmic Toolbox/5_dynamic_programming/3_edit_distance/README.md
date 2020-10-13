@@ -23,7 +23,7 @@ Sample 1.
         ab
         ab
     Output:
-       0
+        0
 
 Sample 2.
 
