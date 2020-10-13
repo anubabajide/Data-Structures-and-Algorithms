@@ -37,34 +37,26 @@ Sample 1.
 
     Input:
         3
-        2 7 5
-        2
-        2 5
+        1 2 3
+        3
+        2 1 3
+        3
+        1 3 5
     Output:
         2
     
-    A common subsequence of length 2 is (2, 5).
+    A common subsequence of length 2 is (1, 3).
 
 Sample 2.
 
     Input:
-        1
+        5
+        8 3 2 1 7
         7
-        4
-        1 2 3 4
+        8 2 1 3 8 10 7
+        6
+        6 8 3 1 4 7
     Output:
-        0
+        3
     
-    The two sequences do not share elements.
-
-Sample 3.
-
-    Input:
-        4
-        2 7 8 3
-        4
-        5 2 8 7
-    Output:
-        2
-    
-    One common subsequence is (2, 7). Another one is (2, 8).
+    One common subsequence of length 3 in this case is (8, 3, 7). Another one is (8, 1, 7).
