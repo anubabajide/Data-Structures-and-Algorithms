@@ -36,33 +36,33 @@ Sample 1.
 Sample 2.
 
     Input:
-    4
-    7 7
-    1 100
-    4 8
-    7 7
+        4
+        7 7
+        1 100
+        4 8
+        7 7
     Output:
-    0.0
+        0.0
 
     There are two coinciding points among the four given points. Thus, the minimum distance is zero.
 
 Sample 3.
 
     Input:
-    11
-    4 4
-    -2 -2
-    -3 -4
-    -1 3
-    2 3
-    -4 0
-    1 1
-    -1 -1
-    3 -1
-    -4 2
-    -2 4
+        11
+        4 4
+        -2 -2
+        -3 -4
+        -1 3
+        2 3
+        -4 0
+        1 1
+        -1 -1
+        3 -1
+        -4 2
+        -2 4
     Output:
-    1.414213
+        1.414213
 
     The smallest distance is √2. There are two pairs of points at this distance: (−1, −1) and (−2, −2); (−2, 4) and (−1, 3).
 
