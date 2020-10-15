@@ -1,79 +1,66 @@
-# Parallel Processing
+# Convert Array to Heap
 
 ## Description 
-In this problem you will simulate a program that processes a list of jobs in parallel. Operating systems such as Linux, MacOS or Windows all have special programs in them called schedulers which do exactly this with the programs on your computer.
+In this problem you will convert an array of integers into a heap. This is the crucial step of the sorting algorithm called HeapSort. It has guaranteed worst-case running time of 𝑂(𝑛 log 𝑛) as opposed to QuickSort’s average running time of 𝑂(𝑛 log 𝑛). QuickSort is usually used in practice, because typically it is faster, but HeapSort is used for external sort when you need to sort huge files that don’t fit into memory of your computer.
 
 ## Details
 **Task**<br>
-You have a program which is parallelized and uses 𝑛 independent threads to process the given list of 𝑚
-jobs. Threads take jobs in the order they are given in the input. If there is a free thread, it immediately
-takes the next job from the list. If a thread has started processing a job, it doesn’t interrupt or stop
-until it finishes processing the job. If several threads try to take jobs from the list simultaneously, the
-thread with smaller index takes the job. For each job you know exactly how long will it take any thread
-to process this job, and this time is the same for all the threads. You need to determine for each job
-which thread will process it and when will it start processing.
+The first step of the HeapSort algorithm is to create a heap from the array you want to sort. By the
+way, did you know that algorithms based on Heaps are widely used for external sort, when you need
+to sort huge files that don’t fit into memory of a computer?
+Your task is to implement this first step and convert a given array of integers into a heap. You will
+do that by applying a certain number of swaps to the array. Swap is an operation which exchanges
+elements 𝑎𝑖 and 𝑎𝑗 of the array 𝑎 for some 𝑖 and 𝑗. You will need to convert the array into a heap using
+only 𝑂(𝑛) swaps, as was described in the lectures. Note that you will need to use a min-heap instead
+of a max-heap in this problem.
 
 **Input format**<br> 
-The first line of the input contains integers 𝑛 and 𝑚.
-The second line contains 𝑚 integers 𝑡<sub>𝑖</sub> — the times in seconds it takes any thread to process 𝑖-th job.
-The times are given in the same order as they are in the list from which threads take jobs.
-Threads are indexed starting from 0.
+The first line of the input contains single integer 𝑛. The next line contains 𝑛 space-separated
+integers 𝑎<sub>𝑖</sub>.
 
 
 **Output format:**<br> 
-Output exactly 𝑚 lines. 𝑖-th line (0-based index is used) should contain two spaceseparated integers — the 0-based index of the thread which will process the 𝑖-th job and the time in seconds when it will start processing that job.
+The first line of the output should contain single integer 𝑚 — the total number of swaps.
+𝑚 must satisfy conditions 0 ≤ 𝑚 ≤ 4𝑛. The next 𝑚 lines should contain the swap operations used
+to convert the array 𝑎 into a heap. Each swap is described by a pair of integers 𝑖, 𝑗 — the 0-based
+indices of the elements to be swapped. After applying all the swaps in the specified order the array
+must become a heap, that is, for each 𝑖 where 0 ≤ 𝑖 ≤ 𝑛 − 1 the following conditions must be true:
+1. If 2𝑖 + 1 ≤ 𝑛 − 1, then 𝑎<sub>𝑖</sub> < 𝑎<sub>2𝑖+1</sub>.
+2. If 2𝑖 + 2 ≤ 𝑛 − 1, then 𝑎<sub>𝑖</sub> < 𝑎<sub>2𝑖+2</sub>.
 
+Note that all the elements of the input array are distinct. Note that any sequence of swaps that has
+length at most 4𝑛 and after which your initial array becomes a correct heap will be graded as correct.
 
 **Constraints:**<br> ub
-1 ≤ 𝑛 ≤ 10<sup>5</sup> <br>
-1 ≤ 𝑚 ≤ 10<sup>5</sup> <br>
-0 ≤ 𝑡𝑖 ≤ 10<sup>9</sup>
+1 ≤ 𝑛 ≤ 100 000<br> 
+0 ≤ 𝑖, 𝑗 ≤ 𝑛 − 1<br> 
+0 ≤ 𝑎<sub>0</sub>, 𝑎<sub>1</sub>, . . . , 𝑎<sub>𝑛−1</sub> ≤ 10<sup>9</sup>
+All 𝑎<sub>𝑖</s> are distinct.
 
 ## Samples.
 Sample 1.
 
-    Input:
-        2 5
-        1 2 3 4 5
+    Input:  
+        5
+        5 4 3 2 1
     Output:
-        0 0
-        1 0
+        3
+        1 4
         0 1
-        1 2
-        0 4
-
-   1. The two threads try to simultaneously take jobs from the list, so thread with index 0 actually takes the first job and starts working on it at the moment 0.
-   2. The thread with index 1 takes the second job and starts working on it also at the moment 0.
-   3. After 1 second, thread 0 is done with the first job and takes the third job from the list, and starts processing it immediately at time 1.
-   4. One second later, thread 1 is done with the second job and takes the fourth job from the list, and starts processing it immediately at time 2.
-   5. Finally, after 2 more seconds, thread 0 is done with the third job and takes the fifth job from the list, and starts processing it immediately at time 4.
+        1 3
+    
+    After swapping elements 4 in position 1 and 1 in position 4 the array becomes 5 1 3 2 4.
+    After swapping elements 5 in position 0 and 1 in position 1 the array becomes 1 5 3 2 4.
+    After swapping elements 5 in position 1 and 2 in position 3 the array becomes 1 2 3 5 4, 
+    which is already a heap, because 𝑎0 = 1 < 2 = 𝑎1, 𝑎0 = 1 < 3 = 𝑎2, 𝑎1 = 2 < 5 = 𝑎3, 𝑎1 = 2 < 4 = 𝑎4.
 
 Sample 2.
 
     Input:
-        4 20
-        1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+        5
+        1 2 3 4 5
     Output:
-        0 0
-        1 0
-        2 0
-        3 0
-        0 1
-        1 1
-        2 1
-        3 1
-        0 2
-        1 2
-        2 2
-        3 2
-        0 3
-        1 3
-        2 3
-        3 3
-        0 4
-        1 4
-        2 4
-        3 4
- 
-    Explanation:
-    Jobs are taken by 4 threads in packs of 4, processed in 1 second, and then the next pack comes. This happens 5 times starting at moments 0, 1, 2, 3 and 4. After that all the 5 × 4 = 20 jobs are processed.
+        0
+    
+    The input array is already a heap, because it is sorted in increasing order
+
