@@ -1,4 +1,6 @@
 # Coding-Challenges
+[![Maintainability](https://api.codeclimate.com/v1/badges/e4a0c279c2c8672b487b/maintainability)](https://codeclimate.com/github/anubabajide/Coding-Challenges/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/e4a0c279c2c8672b487b/test_coverage)](https://codeclimate.com/github/anubabajide/Coding-Challenges/test_coverage)
+<br>
 Different Coding Questions on Data Structure and Algorithm concepts
 
 This Folder contains the following:
