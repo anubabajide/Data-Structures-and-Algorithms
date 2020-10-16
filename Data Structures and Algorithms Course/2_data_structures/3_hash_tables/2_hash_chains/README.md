@@ -81,7 +81,7 @@ Sample 2.
         no
         yes
     
-    Adding “test" twice is the same as adding “test" once, so first find returns “yes". After del, “test" is 6 no longer in the hash table. First time find doesn’t find “Test” because it was not added before, and strings are case-sensitive in this problem. Second time “Test” can be found, because it has just been added.
+    Adding “test" twice is the same as adding “test" once, so first find returns “yes". After del, “test" is no longer in the hash table. First time find doesn’t find “Test” because it was not added before, and strings are case-sensitive in this problem. Second time “Test” can be found, because it has just been added.
 
 Sample 3.
 
