@@ -38,6 +38,7 @@ Sample 1.
     In this graph, there are two paths between vertices 1 and 4: 1-4 and 1-2-3-4.
 
 Sample 2.
+    
     Input:
         4 2
         1 2
