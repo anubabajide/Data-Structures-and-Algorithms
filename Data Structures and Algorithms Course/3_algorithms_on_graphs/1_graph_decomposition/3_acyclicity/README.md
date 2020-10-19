@@ -53,8 +53,8 @@ Sample 2.
         0
 
         4 ← 3 → 5
-        ↖ ↗ ↖ ↗
-        1 → 2
+         ↖ ↗ ↖ ↗
+          1 → 2
     
     There is no cycle in this graph. This can be seen, for example, by noting that all edges in this graph go from a vertex with a smaller number to a vertex with a larger number.
     
