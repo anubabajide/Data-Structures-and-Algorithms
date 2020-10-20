@@ -18,7 +18,7 @@ A graph is given in the standard format. The next line contains two vertices �
 Output the minimum number of edges in a path from 𝑢 to 𝑣, or −1 if there is no path.
 
 **Constraints:**<br>
-2 ≤ 𝑛 ≤ 10<sup>5</sup><br>
+1 ≤ 𝑛 ≤ 10<sup>5</sup><br>
 0 ≤ 𝑚 ≤ 10<sup>5</sup><br>
 1 ≤ 𝑢, 𝑣 ≤ 𝑛<br> 
 𝑢 ̸= 𝑣.
