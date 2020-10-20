@@ -19,8 +19,8 @@ For each query, output one integer on a separate line. If there is no path from 
 1 ≤ 𝑢, 𝑣 ≤ 𝑛<br> 
 1 ≤ 𝑙 ≤ 1 000<br> 
 1 ≤ 𝑞 ≤ 1 000.<br> 
-For Python2, Python3, Ruby and Javascript, 1 ≤ 𝑚 ≤ 2 000 000.
-
+**For Python2, Python3, Ruby and Javascript**,<br> 
+1 ≤ 𝑚 ≤ 2 000 000.
 
 ## Samples.
 Sample 1.
