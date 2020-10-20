@@ -46,6 +46,7 @@ Sample 1.
     many walks through the cycle 3 → 5 → 4 of negative weight. The last line of the output shows that there is no path from 1 to 6 in this graph.
 
 Sample 2.
+
     Input:
         5 4
         1 2 1
