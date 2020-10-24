@@ -1,4 +1,4 @@
-# Find All Occurrences of a Pattern in a String
+#  Construct the Suffix Array of a Long String
 
 ## Description 
 The goal in this problem is to construct the suffix array of a given string again, but this time for a longer string. In particular, a quadratic algorithm will not fit into the time limit in this problem. This will require you to implement an almost linear algorithm bringing you close to the state-of-the-art algorithms for constructing suffix arrays.
@@ -14,7 +14,7 @@ A string Text ending with a “$” symbol.
 SuffixArray(Text), that is, the list of starting positions of sorted suffixes separated by spaces.
 
 **Constraints:**<br>
-1 ≤ |Text| ≤ 10<sup>5</sup><br> except the Last symbol<br>
+1 ≤ |Text| ≤ 10<sup>5</sup> except the Last symbol<br>
 Text contains symbols A, C, G, T only.
 
 ## Samples.
