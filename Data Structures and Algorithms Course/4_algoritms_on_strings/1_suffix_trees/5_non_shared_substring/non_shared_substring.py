@@ -16,6 +16,7 @@ def solve (p, q):
 		while j < n:
 			match = sub_fin = text_fin = False
 			for val in trie[nex]:
+				# Items are stored in Suffix Trie as {index:{start_index:(length_of_word, children)}}
 				length, point_to = trie[nex][val]
 				pos = val
 				if text[j] == text[pos]: 
