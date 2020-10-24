@@ -14,9 +14,7 @@ def InverseBWT(bwt):
     new_bwt_sorted = sorted(new_bwt, key=lambda x: (x[0], int(x[1:])))
     look = dict(zip(new_bwt, new_bwt_sorted))
     key = '$1'
-    count = 0
-    while count < len(bwt):
-        count += 1
+    for _ in bwt:
         key = look[key]
         result += key[0]
     return result

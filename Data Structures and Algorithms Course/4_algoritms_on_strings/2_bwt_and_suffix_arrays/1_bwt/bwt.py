@@ -2,15 +2,9 @@
 import sys
 
 def BWT(text):
-    array = []
-    res = ''
     n = len(text)
-    for i in range(len(text)):
-        array.append(text[i:n] + text[0:i])
-    array.sort()
-    for val in array:
-        res += val[-1]
-    return res
+    array = sorted([text[i:n] + text[0:i] for i in range(n)])
+    return ''.join([val[-1] for val in array])
 
 if __name__ == '__main__':
     text = sys.stdin.readline().strip()
